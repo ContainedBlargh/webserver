@@ -1,0 +1,10 @@
+{
+    "root": "/var/www/spilklubben/",
+    "index": "index.html",
+    "proxy_paths": {
+        "/api": "http://localhost:8090/api",
+        "/_": "http://localhost:8090/_",
+        "/token": "https://id.twitch.tv/oauth2/token",
+        "/igdb": "https://api.igdb.com/v4"
+    }
+}
